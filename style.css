@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+#welcome{
+    background-image: linear-gradient(purple,cyan,orange);
+    padding: 35px;
+    height:900px;
+    opacity: 0.83;
+}
+#profile{
+    width: 300px;
+height: 300px;
+border-radius: 50%;
+}
+h1{
+    font-size:50px;
+    line-height: 1.2;
+    color: darkgreen;
+    font-family:cursive;
+}
+#name{
+    font-size: 60px;
+    font-family: curcive;
+}
+h2{
+    font-size: 35px;
+    color:deeppink;
+ font-family: sans-serif;
+}
+#youtube{
+    font-family: inherit;
+    color:coral;
+    font-size: 40px;
+}
+#line{
+    text-decoration: underline;
+}
+.menu{
+    list-style: none;
+    position:absolute;
+    top:30px;
+    right:30px;
+    cursor:pointer;
+    z-index:10
+    
+}
+.links{
+    float:left;
+    color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:30px;
+}
+.links:hover{
+    background-color: lawngreen;
+    font-size: 50px;
+}
